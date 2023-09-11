@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        .vertical {
+            border-style: solid;
+            padding-left: 10px;
+            background-color: lightblue
+        }
+        .wraper {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .horizontal {
+            display: flex;
+            border-style: solid;
+            padding-left: 15px;
+            padding-top: 25px;
+            gap: 10px;
+            height: 50px;
+            background-color: lightgray;
+        }
+        .text{
+               text-decoration: none;
+                color: rgb(6, 6, 107);
+                padding: 5px 10px;
+        }
+        .to{
+            padding: 5px 10px;
+            color: rgb(15, 15, 195);
+        }
+        .to:hover{
+            background-color: #d7d4d4;
+        }
+        .t:hover{
+            background-color: orange
+        }
+        .horizontal a {
+            text-decoration: none;
+            color: #0a0808;
+            padding: 5px 10px;
+        }
+        .vertical a {
+            text-decoration: none;
+        }
+        .vertical a:hover {
+            background-color: yellow;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="wraper">
+        <div class="nab">
+            <h1>Vertical Navigation Bar</h1>
+            <div class="vertical">
+                <div class="text"><a href="">
+                        <p>Home</p>
+                    </a></div>
+                <div class="text"><a href="">
+                        <p>Java</p>
+                    </a></div>
+                <div class="text"><a href="">
+                        <p>CSS</p>
+                    </a> </div>
+                <div class="text"><a href="">
+                        <p>HTML</p>
+                    </a></div>
+                <div class="text"><a href="">
+                        <p>Bootstrap</p>
+                    </a></div>
+            </div>
+        </div>
+        <div class="nav">
+            <h1>Horizontal Navigation Bar</h1>
+            <div class="horizontal">
+                <div class="to"> <a href="#">Home</a></div>
+                <div class="to"><a href="#">Java</a></div>
+                <div class="to"><a href="#">HTML</a></div>
+                <div class="to"><a href="#">CSS</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
